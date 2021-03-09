@@ -1,3 +1,6 @@
-var name = 'Tom'
+var myName = 'Tom'
 
-console.log(name);
+function greet(myName) {
+  console.log(`Hello, ${myName}`);
+}
+greet('Eric');
