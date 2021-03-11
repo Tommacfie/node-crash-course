@@ -6,3 +6,5 @@ setTimeout(() => {
 const int = setInterval(() => {
   console.log('Timeout!')
 }, 1000);
+
+console.log('Hello!');
