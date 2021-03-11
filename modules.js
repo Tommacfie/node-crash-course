@@ -1,6 +1,8 @@
-const { people } = require('./people');
+const { people, add } = require('./people');
 const { ages } = require('./people');
 
-console.log(ages);
+add(1, 2);
+
+console.log(ages, people);
 
 
