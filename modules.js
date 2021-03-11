@@ -6,7 +6,8 @@
 // console.log(ages, people);
 
 
-const { bigTimer } = require('./global');
+const { bigTimer, delay } = require('./global');
+
 
 bigTimer();
 
