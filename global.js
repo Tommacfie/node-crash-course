@@ -1,10 +1,7 @@
-setTimeout(() => {
-  console.log('Timed Out!');
-  clearInterval(int);
-}, 3000);
+const timer = setInterval(add, 2000);
 
-const int = setInterval(() => {
-  console.log('Timeout!')
-}, 1000);
+function add() {
+  console.log('Hello!');
+}
 
-console.log('Hello');
+
