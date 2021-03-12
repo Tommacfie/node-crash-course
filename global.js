@@ -1,18 +1,28 @@
 let counter = 0;
 
-const delay = setTimeout(bigTimer, 4000);
+
 
 function bigTimer() {
-  const timer = setInterval(countup, 1000);
+  const delay = setTimeout(timer, 6000);
+  function timer() {
 
-  function countup() {
-    if (counter < 11) {
-      console.log(counter);
-      counter++;
+    const timer = setInterval(countup, 1000);
 
-    } else {
-      clearInterval(timer);
-      console.log('Time\'s up!');
+    function countup() {
+
+      if (counter <= 10) {
+
+        console.log(counter);
+        counter++;
+      } else {
+        clearInterval(timer);
+        console.log('Time\'s up!');
+      }
     }
   }
+}
+
+
+module.exports = {
+  bigTimer
 }
