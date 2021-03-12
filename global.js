@@ -3,7 +3,7 @@ let counter = 0;
 
 
 function bigTimer() {
-  const delay = setTimeout(timer, 6000);
+  const delay = setTimeout(timer, 2000);
   function timer() {
 
     const timer = setInterval(countup, 1000);

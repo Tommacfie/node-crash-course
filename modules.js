@@ -8,6 +8,4 @@
 
 const { bigTimer, delay } = require('./global');
 
-
 bigTimer();
-
