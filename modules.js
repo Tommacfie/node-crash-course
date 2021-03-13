@@ -1,11 +1,9 @@
-// const { people, add } = require('./people');
-// const { ages } = require('./people');
+const { people, add } = require('./exports');
+const { ages } = require('./exports');
 
-// add(1, 2);
-
-// console.log(ages, people);
+console.log(ages, people);
 
 
-const { bigTimer, delay } = require('./global');
+const { bigTimer, delay } = require('./timeout');
 
 bigTimer();
