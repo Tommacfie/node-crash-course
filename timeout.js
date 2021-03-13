@@ -1,17 +1,13 @@
 let counter = 0;
 
-
-
 function bigTimer() {
   const delay = setTimeout(timer, 2000);
-  function timer() {
 
+  function timer() {
     const timer = setInterval(countup, 1000);
 
     function countup() {
-
       if (counter <= 10) {
-
         console.log(counter);
         counter++;
       } else {
@@ -21,7 +17,6 @@ function bigTimer() {
     }
   }
 }
-
 
 module.exports = {
   bigTimer
