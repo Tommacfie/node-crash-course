@@ -1,0 +1,23 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "Course files for the Node.js Crash Course tutorial series on The Net Ninja YouTube channel.",
+  "main": "accessing filesystem.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tommacfie/node-crash-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tommacfie/node-crash-course/issues"
+  },
+  "homepage": "https://github.com/Tommacfie/node-crash-course#readme"
+}
